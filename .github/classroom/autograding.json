@@ -180,6 +180,7 @@
       "run": "echo -e '1\\n10000' | python exercicio10.py | grep -q -e '1' -e '9' -e '45' -e '55' -e '99' -e '297' -e '703' -e '999' && echo 'OK' || echo 'ERRO'",
       "timeout": 10,
       "points": 25,
+      "output": "OK",
       "description": "Verifica se o código identifica corretamente os números de Kaprekar no intervalo 1-10000."
     },
     {
